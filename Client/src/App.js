@@ -2,8 +2,6 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom'
 import CartPage from './pages/CartPage';
 import ShoppingPage from './pages/ShoppingPage';
-import Navbar from './components/Navbar/Navbar'
-import Footer from './components/Footer/Footer'
 import { DataContextProvider } from './contexts/DataContext';
 
 function App() {
